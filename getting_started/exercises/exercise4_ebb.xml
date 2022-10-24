@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,163 @@
             <p>https://rpo.library.utoronto.ca/content/elizabeth-barrett-browning</p>
          </sourceDesc>
       </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085642111",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-24T12:56:42.111Z",
+	"dcterms:modified": "2022-10-24T12:56:42.111Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Carolyn Black"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085642111#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085642111#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "rag"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085706827",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-24T12:57:06.827Z",
+	"dcterms:modified": "2022-10-24T12:57:06.827Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Carolyn Black"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085706827#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085706827#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
 
@@ -25,8 +181,8 @@
          <l n="2">Sat gossiping with Robert.</l>
          <l n="3">(She was really a raving beauty in her day.</l>
          <l n="4">With Mary Pickford curls in clouds and whirls.)</l>
-         <l n="5">She was trying to think of something nice to say,</l>
-         <l n="6">So she pointed to a page by her fellow star and sage,</l>
+         <l n="5">She was trying to think of something nice to say,<note type="researchNote">rag</note></l>
+         <l n="6">So she pointed to a page by her fellow star and sage,<note type="scholarNote">Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist.</note></l>
          <l n="7">And said: "I wish that I could write that way!"</l>
          </lg>
 
