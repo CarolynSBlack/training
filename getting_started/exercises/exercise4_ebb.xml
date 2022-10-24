@@ -169,6 +169,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085725637",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-24T12:57:25.637Z",
+	"dcterms:modified": "2022-10-24T12:57:25.637Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Carolyn Black"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085725637#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CarolynSBlack/training/main/getting_started/exercises/exercise4_ebb.xml?note_annotation_20221024085725637#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l[7]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Note for line 4: Mary Pickford was a Toronto-born actress for both the stage and the screen who was known as \"America's sweetheart\" and famous for her romance with the actor Douglas Fairbanks."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
@@ -183,12 +261,12 @@
          <l n="4">With Mary Pickford curls in clouds and whirls.)</l>
          <l n="5">She was trying to think of something nice to say,<note type="researchNote">rag</note></l>
          <l n="6">So she pointed to a page by her fellow star and sage,<note type="scholarNote">Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist.</note></l>
-         <l n="7">And said: "I wish that I could write that way!"</l>
+         <l n="7">And said: "I wish that I could write that way!"<note type="scholarNote">Note for line 4: Mary Pickford was a Toronto-born actress for both the stage and the screen who was known as "America's sweetheart" and famous for her romance with the actor Douglas Fairbanks.</note></l>
          </lg>
 
          <div>
             <p>Note for line 1 : Elizabeth Barrett was one of the most prominent poets of the nineteenth century who married the poet Robert Browning. In the early twentieth century when this poem was written, she was better remembered for the love letters and poems associated with their courtship than for her more ambitous and political writing, which was fiercely femininist and abolitionist.</p>
-            <p>Note for line 4: Mary Pickford was a Toronto-born actress for both the stage and the screen who was known as "America's sweetheart" and famous for her romance with the actor Douglas Fairbanks.</p><p>Note for line 6: The poem anticipates the literary critical concept of the Victorian Sage. See https://en.wikipedia.org/wiki/Sage_writing</p>
+            <p/><p>Note for line 6: The poem anticipates the literary critical concept of the Victorian Sage. See https://en.wikipedia.org/wiki/Sage_writing</p>
 </div>
       </body>
   </text>
