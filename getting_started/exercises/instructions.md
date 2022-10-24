@@ -29,23 +29,27 @@ Structural markup provides information about the structure of a document. In thi
 ### Tag Lines ###
 
 1. Select __From the Cloud__ to open __exercise1_macavity__ in training\gettingstarted\exercises.
-2. Select __Don't Show Again__ in the Editor Mode pop-up.
-3. Select the __Image Viewer__ tab on the right to see an image of the print version of the poem.
-4. Highlight "Macavity, Macavity, there's no one like Macavity," below line 4.
-5. Select __Tags__ on the far left of the ribbon at the top of the screen.
-6. Find the `l` (line) tag by typing it into the search box or scrolling down the list of tags.
-7. Select the `l` tag from the list and then select __OK__.
-8. Try another way of tagging a line — highlight the line text, right click, and then select __Add Tag__, `l`, and __OK__.
-9. Add `l` tags to the remaining lines in the poem using both methods.
-10. Edit the tags around the first line of the poem, which has been mistakenly tagged as a salutation, by clicking on the line, right clicking on `salute` in the __Markup__ panel on the left, and selecting __Change Tag__ from the dropdown menu, `l`, and __OK__.
+2. Select __Select Supported Schema__ and then __TEI All__.
+3. Select __Don't Show Again__ in the Editor Mode pop-up.
+4. Select the __Image Viewer__ tab on the right to see an image of the print version of the poem.
+5. Select __Edit Raw XML__ from the ribbon at the top of the screen.
+6. Change every pair of `ab` (anonymous block) tags to `lg` (line group) tags. Notice that the second, or closing, tag of each pair includes a slash. Be sure each slash remains in place in the closing tags as you do your editing.
+7. When you are done, select __Change__ at the bottom of the Edit Source window.
+8. Highlight "Macavity, Macavity, there's no one like Macavity," below line 4.
+9. Select __Tags__ on the far left of the ribbon at the top of the screen.
+10. Find the `l` (line) tag by typing it into the search box or scrolling down the list of tags.
+11. Select the `l` tag from the list and then select __OK__.
+12. Try another way of tagging a line — highlight the line text, right click, and then select __Add Tag__, `l`, and __OK__.
+13. Add `l` tags to the remaining lines in the poem using both methods.
+14. Edit the tags around the first line of the poem, which has been mistakenly tagged as a salutation, by clicking on the line, right clicking on `salute` in the __Markup__ panel on the left, and selecting __Change Tag__ from the dropdown menu, `l`, and __OK__.
 
 ### Tag Emphasis ###
 
-11. Highlight "Macavity's not there!" on line 5.
-12. Select __Tags__ on the far left of the ribbon at the top of the screen.
-13. Find the `emph` (emphasized) tag by typing it into the search box or scrolling down the list of tags.
-14. Select the `emph` tag from the list and then select __OK__.
-15. Add `emph` tags to all the words italicized in the print version.
+15. Highlight "Macavity's not there!" on line 5.
+16. Select __Tags__ on the far left of the ribbon at the top of the screen.
+17. Find the `emph` (emphasized) tag by typing it into the search box or scrolling down the list of tags.
+18. Select the `emph` tag from the list and then select __OK__.
+19. Add `emph` tags to all the words italicized in the print version.
 
 As you add tags, you will see them appear in the __Markup__ panel on the left. You can also see raw code in the __Selection__ tab on the right. Using the __Markup__ panel and the __Selection__ tab, see if you can find the tags you added.
 
@@ -76,7 +80,7 @@ Structural markup is a kind of semantic markup, or markup about what data means 
 
 ## <a name="exercise-3"></a> Exercise 3: Entity Markup
 
-Entity markup allows you to give data, like data about people and places, semantic meaning through the use of standard identifiers (IDs). These IDs can link the same things across your own documents or create interoperability with external data when the same IDs are used by many people (let's work on this :) provide links to LOD stuff or not here?). In this exercise, you will tag people, place, organization, and date entities in a letter.
+Entity markup allows you to give data, like data about people and places, semantic meaning through the use of standard identifiers (IDs). These IDs can link the same things across your own documents or create interoperability with external data when the same IDs are used by many people. In this exercise, you will tag people, place, organization, and date entities in a letter.
 
 ### Tag a Person ###
 1. Select __From the Cloud__ to open __exercise3_letter-congress__ in training\gettingstarted\exercises.
